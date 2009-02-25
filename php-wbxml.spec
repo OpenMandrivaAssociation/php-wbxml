@@ -18,6 +18,7 @@ BuildRequires:	php-devel >= 3:5.2.1
 BuildRequires:	dos2unix
 BuildRequires:	expat-devel
 BuildRequires:	wbxml2-devel
+BuildRequires:	popt-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
