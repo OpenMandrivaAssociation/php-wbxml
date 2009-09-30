@@ -16,7 +16,7 @@ Patch0:		wbxml-1.0.2-format_not_a_string_literal_and_no_format_arguments.diff
 BuildRequires:	php-devel >= 3:5.2.1
 BuildRequires:	dos2unix
 BuildRequires:	expat-devel
-BuildRequires:	wbxml2-devel
+BuildRequires:	wbxml-devel
 BuildRequires:	popt-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
