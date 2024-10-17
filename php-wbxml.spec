@@ -9,7 +9,7 @@ Version:	1.0.3
 Release:	%mkrel 17
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/wbxml
+URL:		https://pecl.php.net/package/wbxml
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Source1:	%{modname}.ini
 Patch0:		wbxml-1.0.2-format_not_a_string_literal_and_no_format_arguments.diff
