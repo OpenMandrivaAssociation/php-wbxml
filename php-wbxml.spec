@@ -14,6 +14,11 @@ Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Source1:	%{modname}.ini
 Patch0:		wbxml-1.0.2-format_not_a_string_literal_and_no_format_arguments.diff
 Patch1:		wbxml-1.0.3-expat_fix.diff
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.1
 BuildRequires:	dos2unix
 BuildRequires:	expat-devel
